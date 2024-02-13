@@ -206,7 +206,7 @@
                 Image2 As image:
                     Height: =Parent.Height
                     Image: =ThisItem.Value
-                    ImagePosition: =ImagePosition.Fill
+                    ImagePosition: =ImagePosition.Center
                     OnSelect: =Select(Parent)
                     PaddingRight: =0.00
                     PaddingTop: =0.00
@@ -250,11 +250,11 @@
                 ZIndex: =2
 
             Image4_1 As image:
-                Height: =260
-                Image: ='New Request (1)'
-                ImagePosition: =ImagePosition.Fill
-                Width: =959
-                X: =40
-                Y: =40
+                Height: =308
+                Image: ='New Request'
+                ImagePosition: =ImagePosition.Center
+                Width: =608
+                X: =45
+                Y: =66
                 ZIndex: =3
 
