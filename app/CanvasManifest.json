@@ -117,13 +117,13 @@
     "InstrumentationKey": "",
     "LocalDatabaseReferences": "{}",
     "ManualOfflineProfileId": "",
-    "Name": "NearbySchools",
+    "Name": "NearbySchools - Copy",
     "OriginatingVersion": "1.336",
     "ParserErrorCount": 0,
     "ShowStatusBar": false
   },
   "PublishInfo": {
-    "AppName": "NearbySchools",
+    "AppName": "NearbySchools - Copy",
     "BackgroundColor": "RGBA(0,176,240,1)",
     "IconColor": "RGBA(255,255,255,1)",
     "IconName": "Edit",
