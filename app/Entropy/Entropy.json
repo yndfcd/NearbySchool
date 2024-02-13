@@ -10,6 +10,9 @@
     "DataCard3": 19,
     "Gallery1": 16,
     "galleryTemplate1": 17,
+    "Gallery2": 31,
+    "galleryTemplate1": 17,
+    "galleryTemplate2": 32,
     "Host": 3,
     "HtmlText1": 14,
     "Icon1": 10,
@@ -26,12 +29,14 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
+
   "HeaderLastSavedDateTimeUTC": "02/13/2024 06:45:55",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "4999942a-4105-411d-b0c3-fbbf5ca50968": "\"/providers/microsoft.powerapps/apis/shared_logicflows/connections/a9b42f55-e41d-4a43-9219-50e6628c35d5\"",
     "95c68ecf-f1b3-4710-8f88-4b8596b11a06": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/shared-sharepointonl-48b1677e-b2a1-40ea-b43a-d9cf49968f70\"",
-    "b8283a67-9893-4753-9898-f98870122809": "\"/providers/microsoft.powerapps/apis/shared_logicflows/connections/57df529f-cb5e-417c-8af8-1b56cc03c3ce\""
+    "b8283a67-9893-4753-9898-f98870122809": "\"/providers/microsoft.powerapps/apis/shared_logicflows/connections/57df529f-cb5e-417c-8af8-1b56cc03c3ce\"",
+    "efeacdbe-1691-44a2-ab49-2c4fbdff570a": "\"/providers/microsoft.powerapps/apis/shared_office365users/connections/85e0db9f45d1449ab1defa7c7e61c437\""
   },
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {
@@ -57,23 +62,25 @@
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
   "OrderDataSource": {
-    "ComboBoxSample": 2,
+    "ComboBoxSample": 3,
     "Createsharedfile": 0,
-    "CustomGallerySample": 3,
+    "CustomGallerySample": 4,
+    "Office365Users": 2,
     "Testshare": 1
   },
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {
-    "button": 7,
+    "button": 8,
     "fluidGrid": 1,
-    "gallery": 6,
+    "gallery": 5,
     "groupContainer": 4,
-    "htmlViewer": 5,
+    "htmlViewer": 7,
     "icon": 3,
     "image": 0,
-    "label": 2
+    "label": 2,
+    "rectangle": 6
   },
   "OverridablePropertiesEntry": {
     "App": {},
@@ -83,7 +90,9 @@
     "DataCard2": {},
     "DataCard3": {},
     "Gallery1": {},
+    "Gallery2": {},
     "galleryTemplate1": {},
+    "galleryTemplate2": {},
     "Host": {},
     "HtmlText1": {},
     "Icon1": {},
@@ -95,7 +104,12 @@
     "Label1": {},
     "Label1_1": {},
     "Label1_2": {},
+    "NextArrow1": {},
+    "Rectangle1": {},
     "Screen2": {},
+    "Separator1": {},
+    "Subtitle1": {},
+    "Title1": {},
     "VMOnlyButton": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
@@ -142,8 +156,8 @@
       "button": 1,
       "dataCard": 3,
       "fluidGrid": 1,
-      "gallery": 1,
-      "galleryTemplate": 1,
+      "gallery": 2,
+      "galleryTemplate": 2,
       "groupContainer": 1,
       "htmlViewer": 1,
       "icon": 1,
