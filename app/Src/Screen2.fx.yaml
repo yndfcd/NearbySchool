@@ -1,0 +1,188 @@
+"Screen2 As screen.'phoneLayout_FluidGridWithHeaderPageLayout_ver3.0'":
+
+    Image3 As image:
+        Height: =Parent.Height
+        Image: =Rectangle
+        ImagePosition: =ImagePosition.Fill
+        Width: =Parent.Width
+        ZIndex: =1
+
+    Canvas1 As fluidGrid.fluidGridWithBlankCard:
+        BorderThickness: =0
+        Height: =Parent.Height - Self.Y
+        Width: =1440.00
+        X: =0.00
+        ZIndex: =2
+
+        DataCard1 As dataCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            BorderThickness: =0
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =603
+            Width: =1440.00
+            X: =0
+            Y: =0
+            ZIndex: =1
+
+            Image1 As image:
+                Height: =24
+                Image: ='M Logo'
+                PaddingRight: =0.00
+                PaddingTop: =0.00
+                Width: =113
+                X: =40
+                Y: =25
+                ZIndex: =1
+
+            HtmlText1 As htmlViewer:
+                Height: =80
+                HtmlText: |-
+                    ="Our mission is to provide effective and efficient vendor management services that 
+                    enable our partners to deliver on their talent and strategic learning goals. Contact our 
+                    team if you need support at <font color=#0078D4><a href =mailto:tlxvm@microsoft.com>tlxvm@microsoft.com </a></font>."
+                PaddingLeft: =0
+                PaddingRight: =5.27
+                PaddingTop: =5.27
+                Size: =12
+                Width: =727.38
+                X: =42.17
+                Y: =435
+                ZIndex: =2
+
+            Label1 As label:
+                Font: =Font.'Segoe UI'
+                Height: =28
+                PaddingLeft: =0
+                PaddingRight: =5.27
+                PaddingTop: =5.27
+                Size: =15.81
+                Text: ="Vendor Management"
+                Width: =1215
+                X: =185
+                Y: =23
+                ZIndex: =3
+
+            Label1_1 As label:
+                Font: =Font.'Segoe UI'
+                Height: =22
+                PaddingLeft: =0
+                PaddingRight: =5.27
+                PaddingTop: =5.27
+                Size: =15.81
+                Text: ="DELIVER TALENT AND STRATEGIC LEARNING GOALS"
+                Width: =727.38
+                X: =42.17
+                Y: =145
+                ZIndex: =4
+
+            Label1_2 As label:
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Bold
+                Height: =180
+                PaddingLeft: =0
+                PaddingRight: =5.27
+                PaddingTop: =5.27
+                Size: =52.71
+                Text: |-
+                    ="Vendor Management 
+                    Sourcing Request"
+                Width: =727.38
+                X: =42.17
+                Y: =183
+                ZIndex: =5
+
+            Icon1 As icon.VerticalLine:
+                Height: =20
+                Icon: =Icon.VerticalLine
+                PaddingRight: =0.00
+                PaddingTop: =0.00
+                Width: =1.05
+                X: =169
+                Y: =27
+                ZIndex: =6
+
+            Container1 As groupContainer.manualLayoutContainer:
+                DropShadow: =DropShadow.Bold
+                X: =871
+                Y: =141
+                ZIndex: =7
+
+        DataCard2 As dataCard.blankCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =234
+            Width: =1440.00
+            X: =0
+            Y: =1
+            ZIndex: =2
+
+            "Gallery1 As gallery.'BrowseLayout_Horizontal_TwoTextOneImageVariant_ver5.0'":
+                DelayItemLoading: =true
+                Height: =Parent.Height
+                Items: =['New Request','My Request', 'TLX resource']
+                LoadingSpinner: =LoadingSpinner.Data
+                TemplatePadding: =0.00
+                TemplateSize: =437.33 + 24
+                Width: =Parent.Width
+                X: =16
+                ZIndex: =2
+
+                Image2 As image:
+                    Height: =Parent.Height
+                    Image: =ThisItem.Value
+                    ImagePosition: =ImagePosition.Fill
+                    OnSelect: =Select(Parent)
+                    PaddingRight: =0.00
+                    PaddingTop: =0.00
+                    RadiusBottomLeft: =8
+                    RadiusBottomRight: =8
+                    RadiusTopLeft: =8
+                    RadiusTopRight: =8
+                    Width: =Parent.TemplateWidth
+                    ZIndex: =1
+
+        DataCard3 As dataCard.blankCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =476
+            Width: =1440
+            X: =0
+            Y: =2
+            ZIndex: =3
+
+            Image4 As image:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                Height: =VMOnlyButton.Height
+                Image: ='Frame 607'
+                ImagePosition: =ImagePosition.Fill
+                Width: =VMOnlyButton.Width
+                X: =VMOnlyButton.X
+                Y: =VMOnlyButton.Y
+                ZIndex: =1
+
+            VMOnlyButton As button:
+                BorderStyle: =BorderStyle.None
+                Fill: =RGBA(0, 0, 0, 0)
+                Height: =52
+                HoverFill: =RGBA(36, 153, 255, 1)
+                Text: ="TLX VM Only"
+                Width: =321
+                X: =1079
+                Y: =141
+                ZIndex: =2
+
+            Image4_1 As image:
+                Height: =260
+                Image: ='New Request (1)'
+                ImagePosition: =ImagePosition.Fill
+                Width: =959
+                X: =40
+                Y: =40
+                ZIndex: =3
+
