@@ -3,7 +3,6 @@
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
-    "Button1": 5,
     "Canvas1": 8,
     "Container1": 13,
     "DataCard1": 9,
@@ -22,13 +21,12 @@
     "Label1": 10,
     "Label1_1": 14,
     "Label1_2": 15,
-    "Screen1": 4,
     "Screen2": 6,
     "VMOnlyButton": 24
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "02/13/2024 04:45:45",
+  "HeaderLastSavedDateTimeUTC": "02/13/2024 04:57:37",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "4999942a-4105-411d-b0c3-fbbf5ca50968": "\"/providers/microsoft.powerapps/apis/shared_logicflows/connections/a9b42f55-e41d-4a43-9219-50e6628c35d5\"",
@@ -68,18 +66,17 @@
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {
-    "button": 0,
-    "fluidGrid": 2,
-    "gallery": 7,
-    "groupContainer": 5,
-    "htmlViewer": 6,
-    "icon": 4,
-    "image": 1,
-    "label": 3
+    "button": 7,
+    "fluidGrid": 1,
+    "gallery": 6,
+    "groupContainer": 4,
+    "htmlViewer": 5,
+    "icon": 3,
+    "image": 0,
+    "label": 2
   },
   "OverridablePropertiesEntry": {
     "App": {},
-    "Button1": {},
     "Canvas1": {},
     "Container1": {},
     "DataCard1": {},
@@ -98,7 +95,6 @@
     "Label1": {},
     "Label1_1": {},
     "Label1_2": {},
-    "Screen1": {},
     "Screen2": {},
     "VMOnlyButton": {}
   },
@@ -106,7 +102,6 @@
   "PCFTemplateEntry": {},
   "PublishOrderIndices": {
     "App": 0,
-    "Button1": 0,
     "Canvas1": 2,
     "Container1": 7,
     "DataCard1": 3,
@@ -125,7 +120,6 @@
     "Label1": 4,
     "Label1_1": 8,
     "Label1_2": 9,
-    "Screen1": 0,
     "Screen2": 0,
     "VMOnlyButton": 18
   },
